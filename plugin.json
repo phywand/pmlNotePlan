@@ -1,5 +1,5 @@
 {
-  "noteplan.min_version": "3.0.21",
+  "noteplan.min_version": "3.0.23",
   "plugin.id": "ianlawrence.pml",
   "plugin.name": "Enter pml",
   "plugin.description": "Support for writing the physics markup language in NotePlan",
