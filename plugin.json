@@ -1,0 +1,80 @@
+{
+  "noteplan.min_version": "3.0.21",
+  "plugin.id": "ianlawrence.pml",
+  "plugin.name": "Enter pml",
+  "plugin.description": "Support for writing the physics markup language in NotePlan",
+  "plugin.icon": "",
+  "plugin.author": "Ian Lawrence",
+  "plugin.url": "",
+  "plugin.version": "0.2.0",
+  "plugin.dependencies": [],
+  "plugin.script": "plugin.js",
+  "plugin.isRemote": "false",
+  "plugin.commands": [
+    {
+      "name": "pmw",
+      "description": "Enter pml headers & styling",
+      "jsFunction": "pmlWords"
+    },
+    {
+      "name": "pms",
+      "description": "Enter pml speech bubbles",
+      "jsFunction": "pmlSpeech"
+    },
+    {
+      "name": "pmg",
+      "description": "Enter pml spacing",
+      "jsFunction": "pmlSpacing"
+    },
+    {
+      "name": "pmt",
+      "description": "Enter pml technical terms",
+      "jsFunction": "pmlTechnical"
+    },
+    {
+      "name": "pmr",
+      "description": "Enter pml relationship",
+      "jsFunction": "pmlRelationship"
+    },
+    {
+      "name": "pmi",
+      "description": "Enter pml graphic or link",
+      "jsFunction": "pmlGraphicLink"
+    },
+    {
+      "name": "pmy",
+      "description": "Enter pml symbols",
+      "jsFunction": "pmlSymbols"
+    },
+    {
+      "name": "pmwrap",
+      "description": "wrapping selections for pml",
+      "jsFunction": "pmlWrapper"
+    },
+    {
+      "name": "pmjsh",
+      "description": "Jump to StepHeader in pml",
+      "jsFunction": "pmlJumpStepHeader"
+    },
+    {
+      "name": "pmjth",
+      "description": "Jump to ThinkHeader in pml",
+      "jsFunction": "pmlJumpThinkHeader"
+    },
+    {
+      "name": "pmjig",
+      "description": "Jump to InsertGraphic(PID) in pml",
+      "jsFunction": "pmlJumpInsertGraphic"
+    },
+    {
+      "name": "pmrev",
+      "description": "Mark selected phrase for review in pml",
+      "jsFunction": "pmlMarkForReview"
+    },
+    {
+      "name": "pmunrev",
+      "description": "Clear review marks in pml",
+      "jsFunction": "pmlUnMarkForReview"
+    }
+  ]
+}
