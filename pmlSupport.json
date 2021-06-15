@@ -1,0 +1,228 @@
+{
+  "name": "pml",
+  "style": "Light",
+  "author": {
+    "name": "ian",
+    "email": "ian.lawrence@pm.me"
+  },
+
+  "editor": {
+    "backgroundColor": "#FDF6E3",
+    "altBackgroundColor": "#F5EEDC",
+    "tintColor": "#CB4D16",
+    "tintColor2": "#278BD3",
+    "textColor": "#50656B",
+    "toolbarBackgroundColor": "#E4E2D3",
+    "toolbarIconColor": "#586E75",
+    "menuItemColor": "#586E75",
+    "shouldOverwriteFont": false
+  },
+
+  "styles": {
+    "body": {
+      "font": "Drafting*Mono-Regular",
+      "size": 18,
+      "color": "#50656B"
+    },
+
+    "title1": {
+      "color": "#2e9599",
+      "size": 28,
+      "font": "Drafting*Mono-Regular"
+    },
+
+    "title2": {
+      "color": "#2e9599",
+      "size": 24,
+      "font": "Drafting*Mono-Regular"
+    },
+
+    "title3": {
+      "color": "#2e9599",
+      "size": 20,
+      "font": "Drafting*Mono-Regular"
+    },
+
+    "title-mark1": {
+      "color": "#4550656B",
+      "size": 28,
+      "font": "Drafting*Mono-SemiBold"
+    },
+
+    "title-mark2": {
+      "color": "#4550656B",
+      "size": 24,
+      "font": "Drafting*Mono-SemiBold"
+    },
+
+    "title-mark3": {
+      "color": "#4550656B",
+      "size": 20,
+      "font": "Drafting*Mono-SemiBold"
+    },
+
+    "bold": {
+      "font": "Drafting*Mono-Bold"
+    },
+
+    "bold-left-mark": {
+      "color": "#4550656B"
+    },
+
+    "bold-right-mark": {
+      "color": "#4550656B"
+    },
+
+    "italic": {
+      "font": "Drafting*Mono-Italic"
+    },
+
+    "italic-left-mark": {
+      "color": "#4550656B"
+    },
+
+    "italic-right-mark": {
+      "color": "#4550656B"
+    },
+
+    "boldItalic": {
+      "font": "Drafting*Mono-BoldItalic"
+    },
+
+    "boldItalic-left-mark": {
+      "color": "#4550656B"
+    },
+
+    "boldItalic-right-mark": {
+      "color": "#4550656B"
+    },
+
+    "code": {
+      "font": "Menlo-Regular",
+      "color": "#278BD3",
+      "size": 15
+    },
+
+    "code-left-backtick": {
+      "color": "#66278BD3"
+    },
+
+    "code-right-backtick": {
+      "color": "#66278BD3"
+    },
+
+    "checked": {
+      "color": "#6650656B",
+      "headIndent": 33
+    },
+
+    "todo": {
+      "font": "noteplanstate",
+      "color": "#CB4D16",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "checked-todo-characters": {
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "special-char": {
+      "font": "Menlo-Regular"
+    },
+
+    "tabbed": {
+      "headIndent": 43
+    },
+
+    "quote-mark": {
+      "color": "#80278BD3",
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "quote-content": {
+      "color": "#50656B",
+      "type": "italic",
+      "headIndent": 33
+    },
+
+    "link": {},
+
+    "schedule-to-date-link": {},
+
+    "done-date": {},
+
+    "schedule-from-date-link": {},
+
+    "note-title-link": {},
+
+    "hashtag": {},
+
+    "attag": {},
+
+    "phonenumber": {},
+
+    "highlighted": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "backgroundColor": "#7745A2E5"
+    },
+    "highlighted-left-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#7745A2E5"
+    },
+    "highlighted-right-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#7745A2E5"
+    },
+    "markedforalook": {
+      "regex": "(<<)([^:]{1,})(>>)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "backgroundColor": "#ff837f"
+    },
+    "markedforalook-left-colon": {
+      "regex": "(<<)([^:]{1,})(>>)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#ff837f"
+    },
+    "markedforalook-right-colon": {
+      "regex": "(<<)([^:]{1,})(>>)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#ff837f"
+    },
+    "pmlprimitives": {
+      "regex": "(QuoteThis|WebTitle|StepHeader|ThinkHeader|BoldThis|QuotationThis|EmphasiseThis|AttributeThis|SafetyTested|WrongTrack|RightLines|TeacherTip|TeacherSpeak|JustSpeak|PupilSpeak|SafetyTip|TeacherOne|TeacherTwo|TeacherThree|InsertLink|InsertPID|InsertGraphic|FractionBlock|FractionRoot|GroupBlock|JustUnit|NumberRoot|NumberSuper|NumberUnit|QuantityExponent|QuantityOrder|QuantityRange|QuantityRoot|QuantitySub|QuantitySuper|QuantitySymbol|QuantityValue|QuantityVector|ValueExponent|ValueOrder|ValueRange|ValueUnit|VectorMagnitude|VectorMatrix|VectorOver|VectorSub|WordSub|WordSuper|AccumulateRelationship|ApproxeqAssertion|DifferenceABC|EfficiencyCalc|EqualityAssertion|FractionABC|FractionAdBeqCdD|FractionAdBeqCDdEF|FractionAnBC|FractionBdCeqA|FractionQuantityABC|FractionQuantityAnBC|FractionQuantityBdCeqA|FractionVectorABC|ProductABC|ProductABeqCD|ProductAnBC|ProductQuantityABC|ProductQuantityAnBC|ProductVectorCrossABC|ProductVectorDotABC|ProportionAssertion|SumABC)|SpacedReview\\{",
+      "matchPosition": 1,
+      "color": "#AA45A2E5"
+    },
+    "pmlsymbolspacing": {
+      "regex": "( SymbolArrowright | SymbolEqual | SymbolApproxequal | SymbolPi | SymbolDelta | SymbolDifferential | SymbolProportion | SymbolEquivalent | SymbolPlusorminus | SymbolPositive | SymbolNegative | SymbolMultipliedby | SymbolMinus | SymbolPlus | SymbolPercent | SymbolCopyright | SymbolEndash | SymbolEmdash | SymbolHalf | SymbolThird | SymbolQuarter | SymbolWavelength | SymbolAngulara | SymbolAngularv | SymbolFlux | SymbolEpsilon | SymbolMu | SymbolSigma | SymbolStress | SymbolStrain | SymbolDensity | SymbolAngle | SymbolDegree | SymbolTemperaturecentigrade | SymbolOhm | SymbolEMF | SymbolGamma | SymbolBeta | SymbolAlpha | SpacingLinebreak | SpacingParabreak | SpacingThinspace | SpacingNonbreakspace )",
+      "matchPosition": 1,
+      "color": "#F65B74"
+    }
+  }
+}
