@@ -1,7 +1,7 @@
 //--------------------------------------------------------------------------------------------------------------------
 // pml for NotePlan
 // Ian Lawrence
-// v0.2.1, 15.06.2021
+// v0.2.2, 15.06.2021
 //--------------------------------------------------------------------------------------------------------------------
 
 const pmlwrapChoice = [
@@ -361,4 +361,9 @@ function pmlUnMarkForReview() {
   thelot = thelot.replace(/>>/g, "");
   thelot = thelot.replace(/<</g, "");
   Editor.content = thelot;
+}
+function pmlExtras() {
+  Editor.insertTextAtCursor(
+    "SpacedReview{ReviewItem{Question}{Answer}ReviewItem{Question}{Answer}}"
+  );
 }
