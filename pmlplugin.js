@@ -149,7 +149,7 @@ const pmlRelationshipChoice = [
 async function pmlWords() {
   let theChoice = await CommandBar.showOptions(
     pmlWordsChoice,
-    "Choose the word primitive"
+    "Choose the what you'd like to insert"
   );
   let pmlInsert = pmlWordsChoice[theChoice.index];
   if (pmlInsert != undefined && pmlInsert != "") {
@@ -163,7 +163,7 @@ async function pmlWords() {
 async function pmlSpeech() {
   let theChoice = await CommandBar.showOptions(
     pmlSpeechChoice,
-    "Choose the word primitive"
+    "Choose a speech bubble you'd like to insert"
   );
   let pmlInsert = pmlSpeechChoice[theChoice.index];
   if (pmlInsert != undefined && pmlInsert != "") {
@@ -176,7 +176,7 @@ async function pmlSpeech() {
 async function pmlSpacing() {
   let theChoice = await CommandBar.showOptions(
     pmlSpacingChoice,
-    "Choose the word primitive"
+    "Choose the spacing you'd like to insert"
   );
   let pmlInsert = pmlSpacingChoice[theChoice.index];
   if (pmlInsert != undefined && pmlInsert != "") {
@@ -189,7 +189,7 @@ async function pmlSpacing() {
 async function pmlTechnical() {
   let theChoice = await CommandBar.showOptions(
     pmlTechnicalChoice,
-    "Choose the word primitive"
+    "Choose the technical text you'd like to insert"
   );
   let pmlInsert = pmlTechnicalChoice[theChoice.index];
   if (pmlInsert != undefined && pmlInsert != "") {
@@ -202,7 +202,7 @@ async function pmlTechnical() {
 async function pmlRelationship() {
   let theChoice = await CommandBar.showOptions(
     pmlRelationshipChoice,
-    "Choose the word primitive"
+    "Choose the relationship you'd like to insert"
   );
   let pmlInsert = pmlRelationshipChoice[theChoice.index];
   if (pmlInsert != undefined && pmlInsert != "") {
@@ -215,7 +215,7 @@ async function pmlRelationship() {
 async function pmlGraphicLink() {
   let theChoice = await CommandBar.showOptions(
     pmlGraphicLinkChoice,
-    "Choose the word primitive"
+    "Choose the graphic or link primitive you'd like to insert"
   );
   let pmlInsert = pmlGraphicLinkChoice[theChoice.index];
   if (pmlInsert != undefined && pmlInsert != "") {
@@ -228,7 +228,7 @@ async function pmlGraphicLink() {
 async function pmlSymbols() {
   let theChoice = await CommandBar.showOptions(
     pmlSymbolsChoice,
-    "Choose the word primitive"
+    "Choose the symbol you'd like to insert"
   );
   let pmlInsert = pmlSymbolsChoice[theChoice.index];
   if (pmlInsert != undefined && pmlInsert != "") {
@@ -364,6 +364,6 @@ function pmlUnMarkForReview() {
 }
 function pmlExtras() {
   Editor.insertTextAtCursor(
-    "SpacedReview{ReviewItem{Question}{Answer}ReviewItem{Question}{Answer}}"
+    "SpacedReview{{Question}{Answer}{Question}{Answer}}"
   );
 }
