@@ -36,6 +36,10 @@ Three navigation commands, to jump to structured headers which play significant 
 /pmjth : Jump to ThinkHeader in pml
 /pmjig : Jump to InsertGraphic(PID) in pml
 
+## rough and ready
+
+![adding technical text](pmlInsertGroupBlock.gif)
+
 ## To follow
 
 An implementation of critic markup, which I use to comment on the text.
