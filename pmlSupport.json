@@ -190,6 +190,30 @@
       "color": "#AA45A2E5",
       "backgroundColor": "#7745A2E5"
     },
+    "commented": {
+      "regex": "(\\{>>)([^:]{1,})(<<\\})",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "backgroundColor": "#fbff79"
+    },
+    "commented-left-matter": {
+      "regex": "(\\{>>)([^:]{1,})(<<\\})",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#fbff79"
+    },
+    "commented-right-matter": {
+      "regex": "(\\{>>)([^:]{1,})(<<\\})",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#fbff79"
+    },
     "markedforalook": {
       "regex": "(<<)([^:]{1,})(>>)",
       "matchPosition": 2,
@@ -215,7 +239,7 @@
       "backgroundColor": "#ff837f"
     },
     "pmlprimitives": {
-      "regex": "(QuoteThis|WebTitle|StepHeader|ThinkHeader|BoldThis|QuotationThis|EmphasiseThis|AttributeThis|SafetyTested|WrongTrack|RightLines|TeacherTip|TeacherSpeak|JustSpeak|PupilSpeak|SafetyTip|TeacherOne|TeacherTwo|TeacherThree|InsertLink|InsertPID|InsertGraphic|FractionBlock|FractionRoot|GroupBlock|JustUnit|NumberRoot|NumberSuper|NumberUnit|QuantityExponent|QuantityOrder|QuantityRange|QuantityRoot|QuantitySub|QuantitySuper|QuantitySymbol|QuantityValue|QuantityVector|ValueExponent|ValueOrder|ValueRange|ValueUnit|VectorMagnitude|VectorMatrix|VectorOver|VectorSub|WordSub|WordSuper|AccumulateRelationship|ApproxeqAssertion|DifferenceABC|EfficiencyCalc|EqualityAssertion|FractionABC|FractionAdBeqCdD|FractionAdBeqCDdEF|FractionAnBC|FractionBdCeqA|FractionQuantityABC|FractionQuantityAnBC|FractionQuantityBdCeqA|FractionVectorABC|ProductABC|ProductABeqCD|ProductAnBC|ProductQuantityABC|ProductQuantityAnBC|ProductVectorCrossABC|ProductVectorDotABC|ProportionAssertion|SumABC)|SpacedReview\\{",
+      "regex": "(QuoteThis|WebTitle|StepHeader|ThinkHeader|BoldThis|QuotationThis|EmphasiseThis|AttributeThis|SafetyTested|WrongTrack|RightLines|TeacherTip|TeacherSpeak|JustSpeak|PupilSpeak|SafetyTip|TeacherOne|TeacherTwo|TeacherThree|InsertLink|InsertPID|InsertGraphic|FractionBlock|FractionRoot|GroupBlock|JustUnit|NumberRoot|NumberSuper|NumberUnit|QuantityExponent|QuantityOrder|QuantityRange|QuantityRoot|QuantitySub|QuantitySuper|QuantitySymbol|QuantityValue|QuantityVector|ValueExponent|ValueOrder|ValueRange|ValueUnit|VectorMagnitude|VectorMatrix|VectorOver|VectorSub|WordSub|WordSuper|AccumulateRelationship|ApproxeqAssertion|DifferenceABC|EfficiencyCalc|EqualityAssertion|FractionABC|FractionAdBeqCdD|FractionAdBeqCDdEF|FractionAnBC|FractionBdCeqA|FractionQuantityABC|FractionQuantityAnBC|FractionQuantityBdCeqA|FractionVectorABC|ProductABC|ProductABeqCD|ProductAnBC|ProductQuantityABC|ProductQuantityAnBC|ProductVectorCrossABC|ProductVectorDotABC|ProportionAssertion|SumABC|SpacedReview\\{)",
       "matchPosition": 1,
       "color": "#AA45A2E5"
     },

@@ -1,7 +1,7 @@
 //--------------------------------------------------------------------------------------------------------------------
 // pml for NotePlan
 // Ian Lawrence
-// v0.2.3, 16.06.2021
+// v0.3.1, 17.06.2021
 //--------------------------------------------------------------------------------------------------------------------
 
 const pmlwrapChoice = [
@@ -10,6 +10,8 @@ const pmlwrapChoice = [
   "QuoteThis{SELECTION}",
   "### ThinkHeader{SELECTION}",
   "## StepHeader{SELECTION}",
+  "Highlight",
+  "Comment",
 ];
 
 const pmlWordsChoice = [
@@ -248,6 +250,25 @@ async function pmlWrapper() {
   let splitter = theWrap.length - 1;
   let wellWrapped =
     theWrap.substring(0, splitter - 9) + grabThis + theWrap.substring(splitter);
+  if (grabThis != undefined && grabThis != "") {
+    Editor.replaceSelectionWithText(wellWrapped);
+  } else {
+    CommandBar.showOptions([""], "Can't get selection");
+  }
+}
+
+function pmlComment() {
+  let grabThis = Editor.selectedText;
+  let wellWrapped = "{>>" + grabThis + "<<}";
+  if (grabThis != undefined && grabThis != "") {
+    Editor.replaceSelectionWithText(wellWrapped);
+  } else {
+    CommandBar.showOptions([""], "Can't get selection");
+  }
+}
+function pmlHighlight() {
+  let grabThis = Editor.selectedText;
+  let wellWrapped = "::" + grabThis + "::";
   if (grabThis != undefined && grabThis != "") {
     Editor.replaceSelectionWithText(wellWrapped);
   } else {
