@@ -36,14 +36,18 @@ Three navigation commands, to jump to structured headers which play significant 
 /pmjth : Jump to ThinkHeader in pml
 /pmjig : Jump to InsertGraphic(PID) in pml
 
+Two ways of highlighting text
+
+/pmh : hightlight selection
+/pmc : mark as comment
+
 ## rough and ready
 
 ![adding technical text](pmlInsertGroupBlock.gif)
 
 ## To follow
 
-An implementation of critic markup, which I use to comment on the text.
-A bit more on how I use Mark forteview.
+A bit more on how I use markforteview.
 More error trapping and reporting.
 
 # hat-tips
