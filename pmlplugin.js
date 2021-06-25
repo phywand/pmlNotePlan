@@ -276,6 +276,16 @@ function pmlHighlight() {
   }
 }
 
+function pmlLinkedNote() {
+  let grabThis = Editor.selectedText;
+  let wellWrapped = "[[" + grabThis + "]]";
+  if (grabThis != undefined && grabThis != "") {
+    Editor.replaceSelectionWithText(wellWrapped);
+  } else {
+    CommandBar.showOptions([""], "Can't get selection");
+  }
+}
+
 async function pmlJumpStepHeader() {
   const paras = Editor?.paragraphs;
   if (paras == null) {

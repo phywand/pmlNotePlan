@@ -41,6 +41,10 @@ Two ways of highlighting text
 /pmh : hightlight selection
 /pmc : mark as comment
 
+And a way to make the selection a note link
+/pmlink makes note link from selections
+(this is not pml really, and will move in due course to another group of commands concerned with curating a tilth of notes)
+
 ## rough and ready
 
 ![adding technical text](pmlInsertGroupBlock.gif)

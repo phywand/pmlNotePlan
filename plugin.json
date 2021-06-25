@@ -6,7 +6,7 @@
   "plugin.icon": "",
   "plugin.author": "Ian Lawrence",
   "plugin.url": "",
-  "plugin.version": "0.3.1",
+  "plugin.version": "0.3.2",
   "plugin.dependencies": [],
   "plugin.script": "pmlplugin.js",
   "plugin.isRemote": "false",
@@ -90,6 +90,11 @@
       "name": "pmh",
       "description": "highlight selection",
       "jsFunction": "pmlHighlight"
+    },
+    {
+      "name": "pmlink",
+      "description": "new linked note from selection",
+      "jsFunction": "pmlLinkedNote"
     }
   ]
 }
