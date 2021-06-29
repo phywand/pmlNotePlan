@@ -10,8 +10,6 @@ const pmlwrapChoice = [
   "QuoteThis{SELECTION}",
   "### ThinkHeader{SELECTION}",
   "## StepHeader{SELECTION}",
-  "Highlight",
-  "Comment",
 ];
 
 const pmlWordsChoice = [
